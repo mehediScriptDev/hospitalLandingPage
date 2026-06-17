@@ -98,7 +98,7 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile MEnu */}
       <div
         className={`fixed inset-0 bg-white z-199 flex flex-col items-center justify-center transition-opacity duration-300 ${isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
       >
